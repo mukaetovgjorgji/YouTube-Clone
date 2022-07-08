@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-9=8"/>
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible"
+    content="ie=edge"/>
+    <title>YouTube Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="stylesheet" href="styles/footer.css">
+  </head>
+  <body style="height: 1200px;">
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" />
+        <img class="youtube-logo" src="icons/youtube-logo.svg" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Пребарај" />
+        <button class="search">
+          <img class="search-icon" src="icons/search.svg" />
+          <div class="tooltip">Пребарај</div>
+        </button>
+        <div class="voice-search">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" />
+          <div class="tooltip">Пребарувајте со глас</div>
+        </div>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" />
+          <div class="tooltip">Создај</div>
+        </div>
+
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg" />
+          <div class="tooltip">YouTube апликации</div>
+        </div>
+
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg" />
+          <div class="tooltip">Известувања</div>
+          <div class="notifications-count">9+</div>
+          </div>
+        <img class="current-user-picture" src="channel-pictures/css.jpg" />
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="sidebar/home.svg" />
+        <div>Почетна</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar/explore.svg" />
+        <div>Откривајте</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar/subscriptions.svg" />
+        <div>Претплати</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar/originals.svg" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar/youtube-music.svg" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar/library.svg" />
+        <div>Збирка</div>
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="" />
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/channel-1.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4 мил. прегледи &#183; пред 6 месеци</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="" />
+          <div class="video-time2">8:22</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/channel-2.png"
+              alt=""
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Try Not To Laugh Challenge #9</p>
+            <p class="video-author">Markiplier</p>
+            <p class="video-stats">19 мил. прегледи &#183; пред 4 години</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="" />
+          <div class="video-time">9:13</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/channel-3.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Crazy Tik Toks Taken Moments Before DISASTER
+            </p>
+            <p class="video-author">SSSniperWolf</p>
+            <p class="video-stats">12 мил. прегледи &#183; пред 1 година</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="" />
+          <div class="video-time">22:09</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/channel-4.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              The Simplest Math Problem No One Can Solve - Collatz Conjecture
+            </p>
+            <p class="video-author">Veritasium</p>
+            <p class="video-stats">18 мил. прегледи &#183; пред 4 месеци</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="" />
+          <div class="video-time">11:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/channel-5.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Kadane's Algorithm to Maximum Sum Subarray Problem
+            </p>
+            <p class="video-author">CS Dojo</p>
+            <p class="video-stats">519 илј. прегледи &#183; пред 5 години</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-7.webp" alt="" />
+          <div class="video-time">4:03</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/sportklub.jpg"
+              alt=""
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Za Sve Postoje Prvi Put - Krajinović U Drugom Kolu Wimbldona I SPORT KLUB Tenis
+            </p>
+            <p class="video-author">Sports Club</p>
+            <p class="video-stats">12 илј. прегледи &#183; пред 3 дена</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-8.webp" alt="" />
+          <div class="video-time">5:59</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/brianaree.jpg"
+              alt=""
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              How To Get An A WITHOUT Studying! 17 NO Study Hacks To Get Straight A's!
+            </p>
+            <p class="video-author">Briana Renee</p>
+            <p class="video-stats">758 илј. прегледи &#183; пред 4 години</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-9.webp" alt="" />
+          <div class="video-time">4:42</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/rtk.jpg"
+              alt=""
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              КАВАДАРЦИ ДОБИВА НОВ МОДЕРЕН ПАЗАР
+            </p>
+            <p class="video-author">РТК-Кавадарци</p>
+            <p class="video-stats">125 прегледи &#183; пред 6 месеци</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-10.webp" alt="" />
+          <div class="video-time">9:45</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/mancesterce.jpg"
+              alt=""
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              AC Milan vs Manchester United 2-7 (agg) Highlights & Goals - Round of 16 | UCL 2009/2010
+            </p>
+            <p class="video-author">Football Flashback</p>
+            <p class="video-stats">2,5 мил. прегледи &#183; пред 8 месеци</p>
+          </div>
+        </div>
+      </div>  
+  </body>
+</html>
